@@ -1,5 +1,5 @@
 # SR-Speech-Recognizition-DataPipeline.github.io
-Purpose and Objectives: The Ennis data pipeline serves as a comprehensive solution for recognizing child speech patterns and analyzing speech disorders. Its primary purpose is to streamline the processing and analysis of child speech data, enabling efficient identification and diagnosis of speech-related conditions. The pipeline consists of several components, each contributing to a specific aspect of the overall analysis process.
+Purpose and Objectives: The  data pipeline serves as a comprehensive solution for recognizing child speech patterns and analyzing speech disorders. Its primary purpose is to streamline the processing and analysis of child speech data, enabling efficient identification and diagnosis of speech-related conditions. The pipeline consists of several components, each contributing to a specific aspect of the overall analysis process.
 
 1.	Child speech Transcription Pipeline:
 •	This component focuses on transcribing the recorded child speech data into text format.
