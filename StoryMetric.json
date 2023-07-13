@@ -1,0 +1,78 @@
+{
+  "uuid": "a4773389-1e9e-4cb8-8bcb-9040becebf8e",
+  "lastMigration": 27,
+  "name": "StoryMetric",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3015,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "9521ff6a-24a6-4d24-991c-c12050fd7feb",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "StoryMetric",
+      "responses": [
+        {
+          "uuid": "dbd18d2c-ce81-47ba-942e-6cb9f5a91120",
+          "body": "{\n  \"Media\": \"unlinked\",\n  \"child_id\": \"1234\",\n  \"selected_story\": 2,\n  \"stories\": [\n    {\n      \"story_id\": \"2\",\n      \"start_time\": \"2023-05-07T09:05:00\",\n      \"end_time\": \"2023-05-07T09:08:00\",\n      \"segments\": [\n        {\n          \"segment_id\": \"sg1\",\n          \"segment_text\": \"Once a horse saw that I just talked about, but the ball was not in there\"\n        },\n        {\n          \"segment_id\": \"sg2\",\n          \"segment_text\": \" The elephant wanted to go in, but he hurt his knee cap\"\n        },\n        {\n          \"segment_id\": \"sg3\",\n          \"segment_text\": \" The horse helped him, and then there was another elephant who was a lifeguard\"\n        },\n        {\n          \"segment_id\": \"sg4\",\n          \"segment_text\": \" They are doing something\"\n        },\n        {\n          \"segment_id\": \"sg5\",\n          \"segment_text\": \" I think they are battling\"\n        },\n        {\n          \"segment_id\": \"sg6\",\n          \"segment_text\": \" Then they sat on the bench, and the lifeguard was mad\"\n        }\n      ],\n      \"first_mention_score\": 0.92,\n      \"story_grammar_score\": 3,\n      \"setting\": \" \",\n      \"initiating_event\": \" \",\n      \"internal_response\": \" \",\n      \"attempts_and_consequences\": \" \",\n      \"resolution\": \" \"\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "9521ff6a-24a6-4d24-991c-c12050fd7feb"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}

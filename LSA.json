@@ -1,0 +1,78 @@
+{
+  "uuid": "a131d8bc-9239-4fa4-ba8e-7782c95036f9",
+  "lastMigration": 27,
+  "name": "LSA",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3402,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "21ea0160-9183-4847-8bbf-edfbe1e7465b",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "LangSampleAnalysis",
+      "responses": [
+        {
+          "uuid": "3db14269-45fa-44bd-97c5-b4d2de504491",
+          "body": "{\n  \"child_id\": \"1234\",\n  \"stories\": [\n    {\n      \"story_id\": \"1\",\n      \"start_time\": \"2023-05-07T09:00:00\",\n      \"end_time\": \"2023-05-07T09:02:30\",\n      \"story\": \"Once a horse met an elephant, and then they saw a ball in a pool. The horse tried to swim and get the ball, and then the elephant gave him the ball. The horse was wet, and the elephant was holding the ball. The end.\",\n      \"word_count\": 45,\n      \"unique_words\": 27,\n      \"pgu\": 0.6,\n      \"independent_clauses\": 5,\n      \"dependent_clauses\": 1,\n      \"complexity_index\": 0.13,\n      \"MLCU\": 0.2\n    },\n    {\n      \"story_id\": \"2\",\n      \"start_time\": \"2023-05-07T09:05:00\",\n      \"end_time\": \"2023-05-07T09:08:00\",\n      \"story\": \"Once a horse saw that I just talked about, but the ball was not in there. The elephant wanted to go in, but he hurt his knee cap. The horse helped him, and then there was another elephant who was a lifeguard. They are doing something. I think they are battling. Then they sat on the bench, and the lifeguard was mad. The end.\",\n      \"word_count\": 69,\n      \"unique_words\": 49,\n      \"pgu\": 0.71,\n      \"independent_clauses\": 5,\n      \"dependent_clauses\": 2,\n      \"complexity_index\": 0.17,\n      \"MLCU\": 0.2\n    },\n    {\n      \"story_id\": \"3\",\n      \"start_time\": \"2023-05-07T09:10:00\",\n      \"end_time\": \"2023-05-07T09:12:30\",\n      \"story\": \"Once, the horse and the elephant were happy near the swimming pool. The horse had an airplane to play with, which had something coming down at the bottom. The elephant tried it, and the horse was mad. The lifeguard tried to get it but he could not. The horse cried, and then an elephant with a net came and caught it. She gave it back to the horse, and then the horse loved it. The end.\",\n      \"word_count\": 69,\n      \"unique_words\": 51,\n      \"pgu\": 0.74,\n      \"independent_clauses\": 5,\n      \"dependent_clauses\": 3,\n      \"complexity_index\": 0.2,\n      \"MLCU\": 0.2\n    },\n    {\n      \"story_id\": \"4\",\n      \"start_time\": \"2023-05-07T09:15:00\",\n      \"end_time\": \"2023-05-07T09:17:00\",\n      \"story\": \"Once two rabbits made a sandcastle. It was a great one. One took some sand from a pail, and the other one took some sand, and he dumped it on the castle. Part of it stayed the way it was, but the rest turned into just a lump. The end.\",\n      \"word_count\": 36,\n      \"unique_words\": 26,\n      \"pgu\": 0.72,\n      \"independent_clauses\": 4,\n      \"dependent_clauses\": 1,\n      \"complexity_index\": 0.14,\n      \"MLCU\": 0.2\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "21ea0160-9183-4847-8bbf-edfbe1e7465b"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}

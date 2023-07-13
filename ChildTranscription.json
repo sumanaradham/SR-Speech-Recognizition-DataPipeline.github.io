@@ -1,0 +1,78 @@
+{
+  "uuid": "fb3fbff5-be19-4b37-a4b3-af30aa2d2d73",
+  "lastMigration": 27,
+  "name": "ChildTranscription",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3011,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "08d6639c-82b1-4a8c-a573-45023266f148",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "ChildTranscription",
+      "responses": [
+        {
+          "uuid": "bbf06449-880b-4349-8830-de12350f4d24",
+          "body": "{\n  \"Media\": \"unlinked\",\n  \"child_id\": \"1234\",\n  \"stories\": [\n    {\n      \"story_id\": \"1\",\n      \"start_time\": \"2023-05-07T09:00:00\",\n      \"end_time\": \"2023-05-07T09:02:30\",\n      \"story\": \"Once a horse met an elephant, and then they saw a ball in a pool. The horse tried to swim and get the ball, and then the elephant gave him the ball. The horse was wet, and the elephant was holding the ball. The end.\"\n    },\n    {\n      \"story_id\": \"2\",\n      \"start_time\": \"2023-05-07T09:05:00\",\n      \"end_time\": \"2023-05-07T09:08:00\",\n      \"story\": \"Once a horse saw that I just talked about, but the ball was not in there. The elephant wanted to go in, but he hurt his knee cap. The horse helped him, and then there was another elephant who was a lifeguard. They are doing something. I think they are battling. Then they sat on the bench, and the lifeguard was mad. The end.\"\n    },\n    {\n      \"story_id\": \"3\",\n      \"start_time\": \"2023-05-07T09:10:00\",\n      \"end_time\": \"2023-05-07T09:12:30\",\n      \"story\": \"Once, the horse and the elephant were happy near the swimming pool. The horse had an airplane to play with, which had something coming down at the bottom. The elephant tried it, and the horse was mad. The lifeguard tried to get it but he could not. The horse cried, and then an elephant with a net came and caught it. She gave it back to the horse, and then the horse loved it. The end.\"\n    },\n    {\n      \"story_id\": \"4\",\n      \"start_time\": \"2023-05-07T09:15:00\",\n      \"end_time\": \"2023-05-07T09:17:00\",\n      \"story\": \"Once two rabbits made a sandcastle. It was a great one. One took some sand from a pail, and the other one took some sand, and he dumped it on the castle. Part of it stayed the way it was, but the rest turned into just a lump. The end.\"\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "08d6639c-82b1-4a8c-a573-45023266f148"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
